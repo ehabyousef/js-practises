@@ -27,6 +27,7 @@
           "scrollbar-color"
         ]
       }
-    ]
+    ],
+    "highest-available-document-mode": "off"
   }
 }
