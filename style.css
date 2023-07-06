@@ -464,7 +464,7 @@ cite {
   margin: 25px;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 .emoji {
   font-size: 30px;
@@ -526,6 +526,11 @@ cite {
   color: white;
   font-size: 20px;
   line-height: 55px;
+  transition: 0.5s;
+}
+.clock-container:hover {
+  background-color: #00506b;
+  box-shadow: 1px 2px 10px blueviolet;
 }
 .time {
   font-size: 32px;
