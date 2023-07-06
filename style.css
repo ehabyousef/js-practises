@@ -375,8 +375,8 @@ dwcwecwe ewcew
   text-shadow: 0px 1px 0px #e1e2ed;
   background: linear-gradient(rgba(9, 245, 201, 1), rgba(11, 67, 238, 1));
   text-decoration: none;
-
-
+  top: 50%;
+  left: 2%;
 }
 
 .buttonClass:hover {
@@ -468,7 +468,7 @@ cite {
   margin: 25px;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 .emoji {
   font-size: 30px;
