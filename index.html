@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>change color</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="javascript/main.js"></script>
+    <script defer src="javascript/section-bg.js"></script>
+    <script defer src="javascript/auto writing.js"></script>
+    <script defer src="javascript/random-videos.js"></script>
+    <script src="javascript/clock.js"></script>
+  </head>
+  <body id="body">
+    <header id="header" class="myheader">
+      <h1 id="auto-title">Ehab Yousef</h1>
+      <nav>
+        <ul class="parent">
+          <li><a> About Us </a></li>
+          <li id="dark" class="mode">change mode</li>
+          <li id="changecolor">
+            change color
+            <ul id="hiddenul" style="display: none">
+              <li id="headerbg">Header BG</li>
+              <li id="titlebg">Title BG</li>
+              <li id="titlecolor">Title color</li>
+              <li id="sectionbg">section BG</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="sec">
+        <h1 id="me">أنا مين ؟</h1>
+
+        <div class="flex">
+          <article class="left-section">
+            <h3>هدفى</h3>
+
+            <p>
+              المحافظه على حياتى حتى الانتهاء من ون بيس
+              <br />
+              ولا تنسى ان ون بيس عمك
+            </p>
+
+            <a id="you" class="youtube"> youtube </a>
+
+            <a class="facebook" href=""> facebook </a>
+          </article>
+
+          <article class="right-section">
+            <img class="my-img" src="circle.png" alt="" />
+
+            <h5>Ehab yousef</h5>
+
+            <p class="para">انا الي ضاع من عُمري سنين</p>
+          </article>
+        </div>
+      </section>
+      <section>
+        <h1 dir="rtl">جرب حظت وانت وحظك كده كده كله جاامد</h1>
+        <div id="parent-iframe">
+          <div class="containeriframe">
+            <iframe
+              id="my-frame"
+              src="https://www.youtube.com/embed/LdJbP0NbFRw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <a href="#" class="buttonClass">random video</a>
+      </section>
+      <div class="quote">
+        <div id="containquote">
+          <blockquote>
+            إننا محكومون بالأمل وما يحدث اليوم لا يمكن أن يكون نهاية التاريخ
+          </blockquote>
+        </div>
+        <cite>Ehab Yousef</cite>
+        <button id="quotebut">randome</button>
+      </div>
+      <div class="hearts">
+        <!-- <div class="emoji">&#129505;</div> -->
+        <button id="heartbut">Hearts</button>
+      </div>
+      <div class="title-accordion">
+        <div class="q1">
+          <div class="ti">
+            <h2>What Is This</h2>
+            <div class="plus">+</div>
+          </div>
+          <div class="content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+          </div>
+        </div>
+        <div class="q2">
+          <div class="ti">
+            <h2>What Is This</h2>
+            <div class="plus">+</div>
+          </div>
+          <div class="content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+            ullam minus nisi, iste excepturi dolor rerum molestias voluptatibus
+            modi debitis at dolorum expedita amet, fugit, inventore ipsum
+            repudiandae voluptas architecto?
+          </div>
+        </div>
+        <div class="q2">
+          <div class="ti">
+            <h2>What Is This</h2>
+            <div class="plus">+</div>
+          </div>
+          <div class="content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+            ullam minus nisi, iste excepturi dolor rerum molestias voluptatibus
+            modi debitis at dolorum expedita amet, fugit, inventore ipsum
+            repudiandae voluptas architecto?
+          </div>
+        </div>
+      </div>
+      <div id="clockcontainer" class="clock-container"></div>
+      <div class="slider-container">
+        <div id="imagescontainer" class="images">
+        </div>
+        <div id="order"></div>
+        <button id="next">-&gt;</button>
+        <button id="prev">&lt;-</button>
+        <div id="buttons" class="buttons">
+          <button class="activate">1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="design">Designed and developed by Ehab Yousef &copy; 2023</p>
+    </footer>
+  </body>
+</html>
